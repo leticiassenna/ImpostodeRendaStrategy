@@ -12,7 +12,7 @@ import br.ifes.leticia.impostoderendastrategy.control.Pessoa;
  *
  * @author Leticia
  */
-public class CalculaImpostoStrategy implements ICalculaImposto{
+public abstract class CalculaImpostoStrategy implements ICalculaImposto{
     protected double minimo;
     protected double maximo;
     protected double aliquota;
