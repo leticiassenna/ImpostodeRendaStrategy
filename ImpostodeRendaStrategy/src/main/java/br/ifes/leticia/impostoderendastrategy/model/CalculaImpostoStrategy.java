@@ -31,6 +31,9 @@ public abstract class CalculaImpostoStrategy implements ICalculaImposto{
         return this.maximo;
     }
     
+    public double getAliquota(){
+        return this.aliquota;
+    }
     
     @Override
     public double calcularImpostoRenda(Pessoa pessoa){
